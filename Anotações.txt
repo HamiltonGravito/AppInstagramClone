@@ -1,3 +1,5 @@
+Criando um Projeto
+    ng new nomeProjeto
 
 Instalando Dependências no Projeto:
     npm install --save(gravar no package.json) nomePacote+@Versão(opicional)
@@ -8,4 +10,13 @@ Obs.: A raiz sempre aponta para a pasta src, então, arquivos na pasta principal
     Bootstrap.min.js - Incluir uma posição no array de scripts.
     jquery e popper - Scripts
 
+Criando Componentes
+    ng g c nomeComponente
+    ...Dentro de outro Componente
+    ng g c componentePai/componenteFilho
 
+Instanciar Componentes
+    No component.html coloca-se a tag descrita no componente.ts
+
+Animações
+    Usa @angular/animation (importar 'BrowserAnimationsModule' no app.module.ts) e web-animations-js(Tirar comentarios no polyfills)
