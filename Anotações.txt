@@ -1,0 +1,11 @@
+
+Instalando Dependências no Projeto:
+    npm install --save(gravar no package.json) nomePacote+@Versão(opicional)
+
+Configuração angular.json
+Obs.: A raiz sempre aponta para a pasta src, então, arquivos na pasta principal precisam retornar um nivel (./).
+    Bootstrap.min.css - Incluir uma posição no array de styles.
+    Bootstrap.min.js - Incluir uma posição no array de scripts.
+    jquery e popper - Scripts
+
+
