@@ -20,3 +20,4 @@ Instanciar Componentes
 
 Animações
     Usa @angular/animation (importar 'BrowserAnimationsModule' no app.module.ts) e web-animations-js(Tirar comentarios no polyfills)
+    Criar metadados animations com array de trigger e dentro desse estados e transições no component.ts (que vai realizar a animação)
